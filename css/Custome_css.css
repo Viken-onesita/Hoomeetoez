@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-sb {
+  justify-content: space-between;
+}
+
+.swiper {
+  background-color: red;
+}
+
+.offersection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.swiper_slide {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  width: auto;
+}
+
+.Star_svg {
+  margin-left: 50px;
+  height: 12px;
+  width: 12px
+}
+
+.offersection .swiper-wrapper {
+  transition-timing-function: linear;
+}
